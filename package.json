@@ -2,5 +2,8 @@
   "homepage": "https://adityalyros.github.io/P-R-O-J-E-C-T",
   "devDependencies": {
     "gh-pages": "^6.1.1"
+  },
+  "dependencies": {
+    "react-scripts": "^5.0.1"
   }
 }
