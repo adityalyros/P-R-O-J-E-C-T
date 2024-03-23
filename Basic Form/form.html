@@ -3,27 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form Basics</title>
+    <link rel="stylesheet" href="basic.css">
     <style>
         
     </style>
 </head>
 <body>
     <fieldset>
-        <legend>Registration Form</legend>
-     <form>
-        <input type="text" name="name", placeholder="Enter Name" id="name"><Br><br>
-        
-        <input type="text" name="email", placeholder="Enter Email" id="email"><Br><br>
+    <legend>Registration Form</legend>
+    <form>
+        <input type="text" name="name" placeholder="Enter your Name" id="name">
 
-        <input type="password" name="password", placeholder="Enter Password" id="password"><Br><br>
+        <input type="text" name="email" placeholder="Enter your Email " id="email">
 
-        <input type="password" name="Confirm password", placeholder="Enter Confirm Password" id="Confirm password"><Br><br>
+        <input type="password" name="password" placeholder="Enter your password" id="password">
 
-        <input type="button" placeholder="Submit" value="Submit">
-     </form>
-   </fieldset>
-   <div class="output"></div>
-   <script src="./js.js"></script>
+        <input type="password" name="confirm-password" placeholder="confirm your password" id="confirm-password">
+
+        <button type="submit">Submit</button>
+</form>
+</fieldset>
+
+<div class="output">
+    <h1>User Details</h1>
+
+</div>
+
+
+<script src="js.js"></script>
 </body>
 </html>
