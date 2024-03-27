@@ -1,18 +1,21 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin:0px;
+    padding:0px;
 }
 
-.jiraboard{
-    display: flex;
+.jiraBoard{
+    display:flex;
     justify-content: space-around;
-    padding: 20px;
+    padding:20px;
 }
 
 .column{
-    border: 1px solid rgb(231, 9, 9);
-    min-height: 400px;
-    width: 180px;
+    border:1px solid red;
+    min-height:400px;
+    width:180px;
     text-align: center;
-    padding: 5px;
+    padding:5px;
+
+
+    
 }
