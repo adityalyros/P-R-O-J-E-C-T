@@ -41,31 +41,6 @@ card.addEventListener("dragend",(eventDetails)=>{
     draggedCard.style.opacity = 1; // it means element is clearly visible
 })
 
-// these 3 events are for sections.
-
-//dragover-from drag start to drag end
-//dragenter-once it enters the drag zone
-//drop-when it moved to its final destination
-
-// let todo=document.querySelector("todo");
-// let progress=document.querySelector("progress");
-// let done=document.querySelector("#done");
-
-// todo.addEventListener("dragover",(eventDetails)=>{
-//     eventDetails.preventDefault();
-// })
-
-// todo.addEventListener("dragenter",(eventDetails)=>{
-//     eventDetails.preventDefault();
-// })
-
-// todo.addEventListener("drop",(eventDetails)=>{
-//     eventDetails.preventDefault();
-// })
-
-//forEach loop
-
-
 let dragevents=["dragover","dragenter","drop"];
 
 dragevents.forEach((dropEvent)=>{
