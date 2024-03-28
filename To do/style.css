@@ -1,21 +1,24 @@
 *{
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
 }
 
-.jiraBoard{
-    display:flex;
-    justify-content: space-around;
-    padding:20px;
+.JiraBoard{
+display:flex;
+justify-content: space-around;
+padding: 20px;
 }
 
 .column{
-    border:1px solid red;
-    min-height:400px;
-    width:180px;
+    border: 1px solid black;
+    min-height: 400px;
+    width: 180px;
     text-align: center;
     padding:5px;
+}
 
-
-    
+.card{
+    background-color: black;
+    color: wheat;
+    border: 1px solid red;
 }
